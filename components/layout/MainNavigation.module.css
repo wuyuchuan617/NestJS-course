@@ -45,3 +45,13 @@
   background-color: #f0ebf7;
   color: #04060e;
 }
+
+@media (max-width: 650px) {
+  .header ul {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+}
