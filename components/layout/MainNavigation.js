@@ -10,7 +10,7 @@ function MainNavigation() {
         <ul>
          
           <li>
-            <Link href="/">🐰 ABOUT</Link>
+            <Link href="/about">🐰 ABOUT</Link>
           </li>
           <li>
             <Link href="/">🥑 LIST</Link>
@@ -19,7 +19,10 @@ function MainNavigation() {
             <Link href="/">🛸 NOTE</Link>
           </li>
           <li>
-            <Link href="/new-meetup">🐚 Add</Link>
+            <Link href="/">🍄 PORTFOLIO</Link>
+          </li>
+          <li>
+            <Link href="/new-meetup">🐚 ADD</Link>
           </li>
         </ul>
       </nav>

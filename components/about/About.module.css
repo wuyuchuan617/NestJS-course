@@ -1,0 +1,24 @@
+.photo {
+  width: 350px;
+  display: flex;
+  margin: 60px auto 20px;
+}
+
+.context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #343434;
+}
+.context div {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+.context p {
+  margin: 20px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
