@@ -1,0 +1,26 @@
+.container {
+  height: 25rem;
+  width: 100%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.title {
+  font-size: 70px;
+  font-weight: bold;
+}
+.subtitle {
+  color: #070a39;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(7, 10, 57, 0.6);
+  width: 53%;
+}

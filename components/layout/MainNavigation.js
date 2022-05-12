@@ -5,21 +5,22 @@ import classes from "./MainNavigation.module.css";
 function MainNavigation() {
   return (
     <header className={classes.header}>
-       <Link href="/"><div className={classes.logo}>🚀 YU SPACE</div></Link>
+      <Link href="/">
+        <div className={classes.logo}>🚀 YU SPACE</div>
+      </Link>
       <nav>
         <ul>
-         
           <li>
             <Link href="/about">🐰 ABOUT</Link>
           </li>
           <li>
-            <Link href="/">🥑 LIST</Link>
+            <Link href="/component">🥑 COMPONENT</Link>
           </li>
           <li>
-            <Link href="/">🛸 NOTE</Link>
+            <Link href="/note">🛸 NOTE</Link>
           </li>
           <li>
-            <Link href="/">🍄 PORTFOLIO</Link>
+            <Link href="/portfolio">🍄 PORTFOLIO</Link>
           </li>
           <li>
             <Link href="/new-meetup">🐚 ADD</Link>

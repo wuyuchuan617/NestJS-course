@@ -5,7 +5,7 @@ import classes from "./About.module.css";
 
 function About() {
   return (
-    <>
+    <div className={classes.container}>
       {/* <div>About</div> */}
       <div className={classes.photo}>
         <Image alt={"yu"} layout="intrinsic" src={myPic} />
@@ -17,7 +17,7 @@ function About() {
         <p>REACT | TYPESCRIPT | NEXTJS</p>
         <p>Based in Taipei Taiwan 🇹🇼 </p>
       </div>
-    </>
+    </div>
   );
 }
 

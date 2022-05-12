@@ -1,13 +1,21 @@
+.container {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .photo {
   width: 350px;
   display: flex;
-  margin: 60px auto 20px;
+  margin: 60px;
 }
 
 .context {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   color: #343434;
 }
 .context div {

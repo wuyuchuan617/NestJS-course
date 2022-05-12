@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  min-width: 100%;
+  padding: 40px 35px 25px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 6px 18px 0 rgb(0 0 0 / 10%);
+  font-size: 24px;
+
+  line-height: 30px;
+  font-weight: 500;
+}
+.container div {
+  margin-bottom: 10px;
+}
