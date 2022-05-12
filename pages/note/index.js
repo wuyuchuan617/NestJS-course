@@ -7,8 +7,8 @@ function NotePage() {
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
       <Banner
-        backgroundColor={"rgb(255, 240, 237)"}
-        titleColor={"#e9652e"}
+        backgroundColor={"#f9f7f6"}
+        titleColor={"#C0BDB1"}
         bannerTitle={"Note"}
         bannerSubtitlr={"Checklists"}
         description={`Elements are the fundamental building blocks of an interface. 

@@ -7,8 +7,8 @@ function PortfolioPage() {
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
       <Banner
-        backgroundColor={"#fff4e8"}
-        titleColor={"#cc7a22"}
+        backgroundColor={"#5C6166"}
+        titleColor={"rgb(249, 247, 246)"}
         bannerTitle={"Portfolio"}
         bannerSubtitlr={"Checklists"}
         description={`Elements are the fundamental building blocks of an interface. 
