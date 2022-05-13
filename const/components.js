@@ -58,8 +58,8 @@ export const BOOK_LIST = [
       "https://images-na.ssl-images-amazon.com/images/I/81niF-EKtyL.jpg",
   },
   {
-    name: "原則：生活和工作",
-    engName: "Principles: Life and Work",
+    name: "原則",
+    engName: "Principles",
     author: "by Ray Dalio",
     url: "https://www.books.com.tw/products/0010782941",
     image: "https://cdn.readmoo.com/cover/8g/fg6hlea_460x580.jpg?v=1616145601",
