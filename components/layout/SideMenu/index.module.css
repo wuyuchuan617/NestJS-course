@@ -1,0 +1,75 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #eee;
+  opacity: 0.6;
+}
+
+.hiddenMenu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 25%;
+  left: 0%;
+  z-index: 2;
+  background: #eee;
+  display: grid;
+  align-content: center;
+  padding-left: 2.5%;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.hiddenMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.hiddenMenu li {
+  margin: 10px 0px;
+  letter-spacing: 0.2rem;
+}
+
+.hiddenMenu a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 12px;
+  white-space: nowrap;
+}
+
+.hiddenMenu a:hover,
+.hiddenMenu a:active,
+.hiddenMenu a.active {
+  border-radius: 10px;
+  background-color: #f0ebf7;
+  color: #04060e;
+}
+
+.subSection {
+  margin: 20px 25px;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  padding-left: 8px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 90%;
+  padding: 15px 12px;
+  border-bottom: 1px solid #cfc6be;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
