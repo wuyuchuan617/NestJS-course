@@ -11,6 +11,7 @@ function SideMenu(props) {
         onClick={() => seShowSidemenu(false)}
       ></div>
       <div className={classes.hiddenMenu}>
+        <div style={{ height: "100px" }}></div>
         <Link href="/">
           <div className={classes.logo}>🚀 YU SPACE</div>
         </Link>
