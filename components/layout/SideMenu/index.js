@@ -36,7 +36,9 @@ function SideMenu(props) {
           </li>
 
           <li>
-            <Link href="/new-meetup">🐚 ADD</Link>
+            <Link onClick={() => seShowSidemenu(false)} href="/new-meetup">
+              🐚 ADD
+            </Link>
           </li>
           <li onClick={() => seShowSidemenu(false)}>
             <Link href="/collection">👀 COLLECTION</Link>
