@@ -11,10 +11,16 @@ function About() {
         <Image alt={"yu"} layout="intrinsic" src={myPic} />
       </div>
       <div className={classes.context}>
-  
         <div>YU CHUAN</div>
         <div>FRONTEND ENGINEER</div>
         <p>REACT | TYPESCRIPT | NEXTJS</p>
+        <p>{`I'm passion for the art of coding 👩🏻‍💻
+        I enjoy lerning and taking notes 📝
+        `}</p>
+        <p>{`
+       I love reading and orginize data 📖 
+        `}</p>
+
         <p>Based in Taipei Taiwan 🇹🇼 </p>
       </div>
     </div>

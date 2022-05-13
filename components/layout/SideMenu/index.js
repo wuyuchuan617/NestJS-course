@@ -26,12 +26,12 @@ function SideMenu(props) {
           </li>
           <li onClick={() => seShowSidemenu(false)}>
             <Link href="/note">🛸 NOTE</Link>
-            <div className={classes.subSection}>
+            {/* <div className={classes.subSection}>
               <Link href="/note/react"> - React</Link>
               <Link href="/note/js"> - Javascript</Link>
               <Link href="/note/ts"> - Typescript</Link>
               <Link href="/note/nextjs"> - Next</Link>
-            </div>
+            </div> */}
           </li>
 
           <li>
@@ -42,9 +42,9 @@ function SideMenu(props) {
 
             <div className={classes.subSection}>
               <Link href="/collection/books"> - BOOKS</Link>
-              <Link href="/collection/cafes"> - CAFE</Link>
+              {/* <Link href="/collection/cafes"> - CAFE</Link>
               <Link href="/collection/locations"> - LOCATION</Link>
-              <Link href="/collection/websites"> - WEBSITE</Link>
+              <Link href="/collection/websites"> - WEBSITE</Link> */}
             </div>
           </li>
         </ul>
