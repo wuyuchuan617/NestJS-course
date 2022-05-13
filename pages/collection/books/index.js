@@ -1,4 +1,5 @@
 import React from "react";
+import BookList from "../../../components/collection/BookList";
 import Banner from "../../../components/common/Banner";
 
 function BookCollectionPage() {
@@ -15,18 +16,7 @@ function BookCollectionPage() {
         Understand and cover your components well, and you'll be preparing 
         a consistent infrastructure that enriches the user's experience.`}
       />
-      <div style={{ height: "30rem" }}>
-        <div
-          style={{
-            height: "100px",
-            width: "100px",
-            backgroundColor: "#3D3C37",
-            color: "rgb(249, 247, 246)",
-          }}
-        >
-          Bo
-        </div>
-      </div>
+      <BookList />
     </div>
   );
 }
