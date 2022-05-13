@@ -31,3 +31,15 @@
   font-weight: 400;
   letter-spacing: 0.5px;
 }
+
+@media (max-width: 650px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .context {
+    width: 60%;
+    margin-bottom: 60px;
+  }
+}
