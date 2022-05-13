@@ -23,18 +23,18 @@ function MainNavigation(props) {
             {/* <li>
               <Link href="/about">🐰 ABOUT</Link>
             </li> */}
-            <li>
+            {/* <li>
               <Link href="/component">🥑 COMPONENT</Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link href="/note">🛸 NOTE</Link>
             </li>
             <li>
               <Link href="/portfolio">🍄 PORTFOLIO</Link>
             </li> */}
-            <li>
+            {/* <li>
               <Link href="/new-meetup">🐚 ADD</Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link href="/new-meetup">👀 COLLECTION</Link>
             </li> */}
