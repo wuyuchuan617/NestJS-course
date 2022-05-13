@@ -5,11 +5,17 @@
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 0 6px 18px 0 rgb(0 0 0 / 10%);
-  font-size: 24px;
+  font-size: 20px;
 
   line-height: 30px;
   font-weight: 500;
 }
 .container div {
   margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  .container {
+    font-size: 18px;
+  }
 }
