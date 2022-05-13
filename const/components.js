@@ -1,21 +1,33 @@
 export const COMPONENT_LIST = [
-  { icon: "⌨️", title: "Input" },
-  { icon: "🎛️", title: "Switch" },
-  { icon: "🖲️", title: "Button" },
-  { icon: "📻", title: "Radio" },
-  { icon: "☑️", title: "Checkbox" },
-  { icon: "🎉", title: "Modal" },
-  { icon: "📏", title: "Table" },
-  { icon: "🃏", title: "Card" },
-  { icon: "🗂", title: "Tabs" },
-  { icon: "📛", title: "Badge" },
-  { icon: "🎚", title: "Slider" },
-  { icon: "⤵️", title: "Select" },
-  { icon: "⏳", title: "Loading" },
-  { icon: "🌠", title: "Icon" },
-  { icon: "🛠", title: "Tooltip" },
-  { icon: "🧭", title: "Navigation" },
-  { icon: "🥐", title: "Breadcrumb" },
+  { icon: "⌨️", title: "Input", url: "input" },
+  { icon: "🎛️", title: "Switch", url: "switch" },
+  { icon: "🖲️", title: "Button", url: "button" },
+  { icon: "📻", title: "Radio", url: "radio" },
+  { icon: "☑️", title: "Checkbox", url: "checkbox" },
+  { icon: "🎉", title: "Modal", url: "modal" },
+  { icon: "📏", title: "Table", url: "table" },
+  { icon: "🃏", title: "Card", url: "card" },
+  { icon: "🗂", title: "Tabs", url: "tab" },
+  { icon: "📛", title: "Badge", url: "badge" },
+  { icon: "🎚", title: "Slider", url: "slider" },
+  { icon: "⤵️", title: "Select", url: "select" },
+  { icon: "⏳", title: "Loading", url: "loading" },
+  { icon: "🌠", title: "Icon", url: "icon" },
+  { icon: "🛠", title: "Tooltip", url: "tooltip" },
+  { icon: "🧭", title: "Navigation", url: "navigation" },
+  { icon: "🥐", title: "Breadcrumb", url: "breadcrumb" },
+];
+
+export const COLLECTION_LIST = [
+  { icon: "📚", title: "Book", url: "books" },
+  { icon: "💻", title: "Resource", url: "resources" },
+];
+export const NOTE_LIST = [
+  { icon: "📚", title: "React", url: "react" },
+  { icon: "💻", title: "Javascript", url: "javascript" },
+  { icon: "💻", title: "Typescript", url: "typescript" },
+  { icon: "💻", title: "Next.js", url: "nextjs" },
+  { icon: "💻", title: "CSS", url: "css" },
 ];
 
 export const BOOK_LIST = [

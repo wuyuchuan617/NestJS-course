@@ -1,13 +1,17 @@
 import React from "react";
+import Link from "next/link";
+
 import classes from "./ComponentItem.module.css";
 
 function ComponentItem(props) {
-  const { icon, title } = props;
+  const { icon, title, category, url } = props;
   return (
-    <div className={classes.container}>
-      <div>{icon}</div>
-      <div>{title}</div>
-    </div>
+    <Link href={`/${category}/${url}`}>
+      <div className={classes.container}>
+        <div>{icon}</div>
+        <div>{title}</div>
+      </div>
+    </Link>
   );
 }
 

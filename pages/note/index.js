@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../../components/common/Banner";
+import ComponentList from "../../components/component/ComponentList";
 
+import { NOTE_LIST } from "../../const/components";
 function NotePage() {
   return (
     <div
@@ -15,18 +17,7 @@ function NotePage() {
         Understand and cover your components well, and you'll be preparing 
         a consistent infrastructure that enriches the user's experience.`}
       />
-      <div style={{ height: "30rem" }}>
-        <div
-          style={{
-            height: "100px",
-            width: "100px",
-            backgroundColor: "#3D3C37",
-            color: "rgb(249, 247, 246)",
-          }}
-        >
-          REACT
-        </div>
-      </div>
+      <ComponentList data={NOTE_LIST} category={"note"} />
     </div>
   );
 }

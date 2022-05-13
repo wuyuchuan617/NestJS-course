@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../../components/common/Banner";
 import ComponentList from "../../components/component/ComponentList";
+
+import { COMPONENT_LIST } from "../../const/components";
 function ComponentPage() {
   return (
     <div
@@ -15,7 +17,7 @@ function ComponentPage() {
         Understand and cover your components well, and you'll be preparing 
         a consistent infrastructure that enriches the user's experience.`}
       />
-      <ComponentList />
+      <ComponentList data={COMPONENT_LIST} category={"component"}/>
     </div>
   );
 }

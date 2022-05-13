@@ -10,8 +10,8 @@ function BookCollectionPage() {
       <Banner
         backgroundColor={"#f9f7f6"}
         titleColor={"#C0BDB1"}
-        bannerTitle={"Book"}
-        bannerSubtitlr={"Collection"}
+        bannerTitle={"Collection"}
+        bannerSubtitlr={"Book"}
         description={`Elements are the fundamental building blocks of an interface. 
         Understand and cover your components well, and you'll be preparing 
         a consistent infrastructure that enriches the user's experience.`}

@@ -3,12 +3,19 @@ import ComponentItem from "../../components/component/ComponentItem";
 import { COMPONENT_LIST } from "../../const/components";
 import classes from "./ComponentList.module.css";
 
-function ComponentList() {
+function ComponentList(props) {
+  const { data, category } = props;
   return (
     <div className={classes.container}>
-      {COMPONENT_LIST.map((item, index) => {
+      {data.map((item, index) => {
         return (
-          <ComponentItem key={index} icon={item.icon} title={item.title} />
+          <ComponentItem
+            key={index}
+            icon={item.icon}
+            title={item.title}
+            url={item.url}
+            category={category}
+          />
         );
       })}
     </div>
