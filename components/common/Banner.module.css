@@ -29,4 +29,16 @@
   .container {
     padding-left: 20px;
   }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 48px;
+  }
+
+  .container p {
+    width: 80%;
+  }
 }
