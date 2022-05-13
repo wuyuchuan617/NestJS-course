@@ -6,15 +6,12 @@ function BookList() {
   const [hoverItem, setHoverItem] = useState(null);
   return (
     <div>
+      <div className={classes.title}>Books that I’ve read and loved 💙</div>
       <div className={classes.list}>
         {BOOK_LIST.map((book, index) => {
           return (
             <div key={index} className={classes.card}>
-              <a
-                target="_blank"
-                href={book.url}
-                rel="noopener noreferrer"
-              >
+              <a target="_blank" href={book.url} rel="noopener noreferrer">
                 <div
                   className={classes.imageCard}
                   onMouseEnter={() => setHoverItem(index)}

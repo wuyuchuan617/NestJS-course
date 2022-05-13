@@ -1,8 +1,15 @@
+.title {
+  margin: 120px 0 30px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
 .list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 100px;
+  padding: 0px 100px 60px;
 }
 
 .card {
@@ -21,7 +28,6 @@
   margin: 0;
   white-space: nowrap;
 }
-
 
 .image {
   max-width: 100%;
@@ -45,5 +51,5 @@
 }
 
 .context p:nth-child(1) {
-    margin-bottom: 10px;
-  }
+  margin-bottom: 10px;
+}
