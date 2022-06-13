@@ -17,7 +17,7 @@ function CollectionPage() {
         bannerSubtitlr={"Checklists"}
         description={`Elements are the fundamental building blocks of an interface. 
         Understand and cover your components well, and you'll be preparing 
-        a consistent infrastructure that enriches the user's experience.`}
+        a conffffsistent infrastructure that enriches the user's experience.`}
       />
       <ComponentList data={COLLECTION_LIST} category={"collection"} />
     </div>
