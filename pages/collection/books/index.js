@@ -14,7 +14,7 @@ function BookCollectionPage() {
         bannerSubtitlr={"Book"}
         description={`Elements are the fundamental building blocks of an interface. 
         Ueeeeenderewfewfewstlmland and cover your components well, and you'll be preparing 
-        a consistent infrastructure that enriches the user's experience.`}
+        a consistdent infrastructure that enriches the user's experience.`}
       />
       <BookList />
     </div>
