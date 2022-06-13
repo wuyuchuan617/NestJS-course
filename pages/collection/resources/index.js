@@ -14,7 +14,7 @@ function ResourceCollectionPage() {
         bannerSubtitlr={"Resource"}
         description={`Elements are the fundamental building blocks of an interface. 
         Understand and cover your components well, and you'll be preparing 
-        a consistentddd infrastructure that enriches the user's experience.`}
+        a conssssistentddd infrastructure that enriches the user's experience.`}
       />
       <div style={{ height: "800px" }}></div>
     </div>
