@@ -12,7 +12,7 @@ function ResourceCollectionPage() {
         titleColor={"#C0BDB1"}
         bannerTitle={"Collection"}
         bannerSubtitlr={"Resource"}
-        description={`Elements are the fundamental building blocks of an interface. 
+        description={`5555Elements are the fundamental building blocks of an interface. 
         Understand and cover your components well, and you'll be preparing 
         a conssssistentddd infrastructure that enriches the user's experience.`}
       />
