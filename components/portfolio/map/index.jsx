@@ -23,36 +23,40 @@ const Map = () => {
   });
 
   return (
-    <MapContainer
-      center={[newBook[0]?.latitude, newBook[0]?.longtitude]}
-      zoom={12}
-      scrollWheelZoom={false}
-    >
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-      />
-      {newBook.map((bookstore) => (
-        <Marker
-          key={bookstore.name}
-          position={[bookstore?.latitude, bookstore?.longtitude]}
-          eventHandlers={{ click: () => setActivePark(bookstore) }}
-        />
-      ))}
-      {activePark && (
-        <Popup
-          position={[activePark.latitude, activePark.longtitude]}
-          onClose={() => {
-            setActivePark(null);
-          }}
+    <>
+      {newBook && (
+        <MapContainer
+          center={[newBook[0]?.latitude, newBook[0]?.longtitude]}
+          zoom={12}
+          scrollWheelZoom={false}
         >
-          <div>
-            <h2>{activePark.name}</h2>
-            <p>{activePark.description}</p>
-          </div>
-        </Popup>
+          <TileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          />
+          {newBook.map((bookstore) => (
+            <Marker
+              key={bookstore.name}
+              position={[bookstore?.latitude, bookstore?.longtitude]}
+              eventHandlers={{ click: () => setActivePark(bookstore) }}
+            />
+          ))}
+          {activePark && (
+            <Popup
+              position={[activePark?.latitude, activePark?.longtitude]}
+              onClose={() => {
+                setActivePark(null);
+              }}
+            >
+              <div>
+                <h2>{activePark.name}</h2>
+                <p>{activePark.description}</p>
+              </div>
+            </Popup>
+          )}
+        </MapContainer>
       )}
-    </MapContainer>
+    </>
   );
 };
 
