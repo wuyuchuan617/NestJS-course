@@ -1,5 +1,78 @@
 .container {
   width: 100%;
-  height: 20rem;
+  padding-bottom: 40px;
   background: #cfc6be;
+}
+
+.logo {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 90px;
+}
+
+.twoFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer div {
+  margin-right: 40px;
+}
+
+.hiddenMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  list-style: none;
+}
+
+.hiddenMenu li {
+  margin: 10px 0px;
+  letter-spacing: 0.2rem;
+}
+
+.hiddenMenu a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 12px;
+  white-space: nowrap;
+}
+
+.hiddenMenu a:hover,
+.hiddenMenu a:active,
+.hiddenMenu a.active {
+  border-radius: 10px;
+  color: #e9e6e3;
+}
+
+.buyCoffee {
+  padding: 90px 40px;
+  margin-right: 80px;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    height: auto;
+    flex-direction: column;
+    padding: 40px 90px;
+  }
+
+  .buyCoffee {
+    padding: 40px 90px;
+  }
+  .twoFooter {
+    height: auto;
+    flex-direction: column;
+  }
 }

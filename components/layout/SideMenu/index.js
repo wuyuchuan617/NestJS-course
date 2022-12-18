@@ -34,12 +34,12 @@ function SideMenu(props) {
               <Link href="/note/nextjs"> - Next</Link>
             </div> */}
           </li>
-
+          {/* 
           <li onClick={() => seShowSidemenu(false)}>
             <Link  href="/new-meetup">
               🐚 ADD
             </Link>
-          </li>
+          </li> */}
           <li onClick={() => seShowSidemenu(false)}>
             <Link href="/collection">👀 COLLECTION</Link>
 
