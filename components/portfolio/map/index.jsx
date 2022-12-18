@@ -26,9 +26,9 @@ const Map = () => {
 
   return (
     <>
-      {newBook && (
+      {newBook.length !== 0 && (
         <MapContainer
-          center={[newBook[0].latitude, newBook[0].longtitude]}
+          center={[25.04120349999999, 121.5304341]}
           zoom={12}
           scrollWheelZoom={false}
         >
