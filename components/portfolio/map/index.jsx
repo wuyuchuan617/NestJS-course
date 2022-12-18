@@ -22,41 +22,41 @@ const Map = () => {
       });
     });
   }, []);
-
+  console.log(bookstoreData, newBook);
   return (
     <>
-      {newBook.length !== 0 && (
-        <MapContainer
-          center={[25.04120349999999, 121.5304341]}
-          zoom={12}
-          scrollWheelZoom={false}
-        >
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      {/* {newBook.length !== 0 && ( */}
+      <MapContainer
+        center={[25.04120349999999, 121.5304341]}
+        zoom={12}
+        scrollWheelZoom={false}
+      >
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        />
+        {newBook.map((bookstore) => (
+          <Marker
+            key={bookstore.name}
+            position={[bookstore.latitude, bookstore.longtitude]}
+            eventHandlers={{ click: () => setActivePark(bookstore) }}
           />
-          {newBook.map((bookstore) => (
-            <Marker
-              key={bookstore.name}
-              position={[bookstore.latitude, bookstore.longtitude]}
-              eventHandlers={{ click: () => setActivePark(bookstore) }}
-            />
-          ))}
-          {activePark && (
-            <Popup
-              position={[activePark.latitude, activePark.longtitude]}
-              onClose={() => {
-                setActivePark(null);
-              }}
-            >
-              <div>
-                <h2>{activePark.name}</h2>
-                <p>{activePark.description}</p>
-              </div>
-            </Popup>
-          )}
-        </MapContainer>
-      )}
+        ))}
+        {activePark && (
+          <Popup
+            position={[activePark.latitude, activePark.longtitude]}
+            onClose={() => {
+              setActivePark(null);
+            }}
+          >
+            <div>
+              <h2>{activePark.name}</h2>
+              <p>{activePark.description}</p>
+            </div>
+          </Popup>
+        )}
+      </MapContainer>
+      {/* )} */}
     </>
   );
 };
