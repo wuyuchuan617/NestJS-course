@@ -18,7 +18,7 @@ function About() {
         I enjoy learning and taking notes 📝
         `}</p>
         <p>{`
-       I love reading and organize data 📖 
+       I love reading and organizing data 📖 
         `}</p>
 
         <p>Based in Taipei Taiwan 🇹🇼 </p>
