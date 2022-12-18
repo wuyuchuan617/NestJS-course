@@ -11,17 +11,17 @@ L.Icon.Default.imagePath = "/leaflet_images/";
 const Map = () => {
   const [activePark, setActivePark] = useState(null);
   const newBook = [];
-  useEffect(() => {
-    bookstoreData.map((item, index) => {
-      let wtk = item.WKT.split(" ");
-      return newBook.push({
-        name: item.name,
-        description: item.description,
-        longtitude: parseFloat(wtk[1].replace("(", "")),
-        latitude: parseFloat(wtk[2].replace(")", "")),
-      });
+  //   useEffect(() => {
+  bookstoreData.map((item, index) => {
+    let wtk = item.WKT.split(" ");
+    newBook.push({
+      name: item.name,
+      description: item.description,
+      longtitude: parseFloat(wtk[1].replace("(", "")),
+      latitude: parseFloat(wtk[2].replace(")", "")),
     });
-  }, []);
+  });
+  //   }, [bookstoreData]);
   console.log(bookstoreData, newBook);
   return (
     <>

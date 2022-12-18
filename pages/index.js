@@ -39,30 +39,7 @@ function HomePage(props) {
   );
 }
 
-// export async function getStaticProps() {
-//   const client = await MongoClient.connect(
-//     "mongodb+srv://yuchuanwu:Shin0915@cluster0.ivtm9.mongodb.net/meetups?retryWrites=true&w=majority"
-//   );
-
-//   const db = client.db();
-
-//   const meetupsCollection = db.collection("meetups");
-//   const meetups = await meetupsCollection.find().toArray();
-
-//   return {
-//     props: {
-//       meetups: meetups.map((item) => ({
-//         title: item.title,
-//         address: item.address,
-//         image: item.image,
-//         id: item._id.toString(),
-//       })),
-//     },
-//     revalidate: 1,
-//   };
-// }
-
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
   const client = await MongoClient.connect(
     "mongodb+srv://yuchuanwu:Shin0915@cluster0.ivtm9.mongodb.net/meetups?retryWrites=true&w=majority"
   );
@@ -71,8 +48,6 @@ export async function getServerSideProps(context) {
 
   const meetupsCollection = db.collection("meetups");
   const meetups = await meetupsCollection.find().toArray();
-  const req = context.req;
-  const res = context.res;
 
   return {
     props: {
@@ -83,7 +58,32 @@ export async function getServerSideProps(context) {
         id: item._id.toString(),
       })),
     },
+    revalidate: 1,
   };
 }
+
+// export async function getServerSideProps(context) {
+//   const client = await MongoClient.connect(
+//     "mongodb+srv://yuchuanwu:Shin0915@cluster0.ivtm9.mongodb.net/meetups?retryWrites=true&w=majority"
+//   );
+
+//   const db = client.db();
+
+//   const meetupsCollection = db.collection("meetups");
+//   const meetups = await meetupsCollection.find().toArray();
+//   const req = context.req;
+//   const res = context.res;
+
+//   return {
+//     props: {
+//       meetups: meetups.map((item) => ({
+//         title: item.title,
+//         address: item.address,
+//         image: item.image,
+//         id: item._id.toString(),
+//       })),
+//     },
+//   };
+// }
 
 export default HomePage;
