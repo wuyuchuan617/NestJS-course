@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-
 // import * as parkData from "./skateboard-parks.json";
 import * as bookstoreData from "./bookstore.json";
 
@@ -28,7 +27,7 @@ const Map = () => {
       {/* {newBook.length !== 0 && ( */}
       <MapContainer
         center={[25.04120349999999, 121.5304341]}
-        zoom={12}
+        zoom={13}
         scrollWheelZoom={false}
       >
         <TileLayer
@@ -40,6 +39,7 @@ const Map = () => {
             key={bookstore.name}
             position={[bookstore.latitude, bookstore.longtitude]}
             eventHandlers={{ click: () => setActivePark(bookstore) }}
+            // icon={myIcon}
           />
         ))}
         {activePark && (
