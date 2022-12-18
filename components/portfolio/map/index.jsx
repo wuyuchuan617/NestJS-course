@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
@@ -11,16 +11,18 @@ L.Icon.Default.imagePath = "/leaflet_images/";
 const Map = () => {
   const [activePark, setActivePark] = useState(null);
 
-  const newBook = [];
-  bookstoreData.map((item, index) => {
-    let wtk = item.WKT.split(" ");
-    return newBook.push({
-      name: item.name,
-      description: item.description,
-      longtitude: parseFloat(wtk[1].replace("(", "")),
-      latitude: parseFloat(wtk[2].replace(")", "")),
+  useEffect(() => {
+    const newBook = [];
+    bookstoreData.map((item, index) => {
+      let wtk = item.WKT.split(" ");
+      return newBook.push({
+        name: item.name,
+        description: item.description,
+        longtitude: parseFloat(wtk[1].replace("(", "")),
+        latitude: parseFloat(wtk[2].replace(")", "")),
+      });
     });
-  });
+  }, []);
 
   return (
     <>
