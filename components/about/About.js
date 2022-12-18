@@ -15,10 +15,10 @@ function About() {
         <div>FRONTEND ENGINEER</div>
         <p>REACT | TYPESCRIPT | NEXTJS</p>
         <p>{`I'm passion for the art of coding 👩🏻‍💻
-        I enjoy lerning and taking notes 📝
+        I enjoy learning and taking notes 📝
         `}</p>
         <p>{`
-       I love reading and orginize data 📖 
+       I love reading and organize data 📖 
         `}</p>
 
         <p>Based in Taipei Taiwan 🇹🇼 </p>
