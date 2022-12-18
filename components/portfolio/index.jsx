@@ -6,19 +6,22 @@ const data = [
   {
     icon: "🗺",
     name: "React Leaflet",
-    description: "The adaptability of a canvas - from mobile, to desktop, to super mega widescreen.",
+    description:
+      "The adaptability of a canvas - from mobile, to desktop, to super mega widescreen.",
     url: "maps",
   },
   {
     icon: "⛓",
     name: "React Flow",
-    description: "The adaptability of a canvas - from mobile, to desktop, to super mega widescreen.",
+    description:
+      "The adaptability of a canvas - from mobile, to desktop, to super mega widescreen.",
     url: "react-flow",
   },
   {
     icon: "🔫",
     name: "Framer",
-    description: "The adaptability of a canvas - from mobile, to desktop, to super mega widescreen.",
+    description:
+      "The adaptability of a canvas - from mobile, to desktop, to super mega widescreen.",
     url: "framer",
   },
 ];
@@ -28,7 +31,7 @@ const Portfolio = () => {
     <div className={classes.container}>
       {data.map((item, index) => {
         return (
-          <Link href={`/portfolio/${item.url}`}>
+          <Link href={`/portfolio/${item.url}`} key={index}>
             <div className={classes.container1}>
               <div>{item.icon}</div>
               <div>{item.name}</div>
