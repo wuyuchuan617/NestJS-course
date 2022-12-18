@@ -10,9 +10,8 @@ L.Icon.Default.imagePath = "/leaflet_images/";
 
 const Map = () => {
   const [activePark, setActivePark] = useState(null);
-
+  const newBook = [];
   useEffect(() => {
-    const newBook = [];
     bookstoreData.map((item, index) => {
       let wtk = item.WKT.split(" ");
       return newBook.push({
