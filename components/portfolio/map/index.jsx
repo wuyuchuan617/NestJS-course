@@ -24,7 +24,7 @@ const Map = () => {
 
   return (
     <MapContainer
-      center={[newBook[0].latitude, newBook[0].longtitude]}
+      center={[newBook[0]?.latitude, newBook[0]?.longtitude]}
       zoom={12}
       scrollWheelZoom={false}
     >
@@ -35,7 +35,7 @@ const Map = () => {
       {newBook.map((bookstore) => (
         <Marker
           key={bookstore.name}
-          position={[bookstore.latitude, bookstore.longtitude]}
+          position={[bookstore?.latitude, bookstore?.longtitude]}
           eventHandlers={{ click: () => setActivePark(bookstore) }}
         />
       ))}
