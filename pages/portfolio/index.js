@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Banner from "../../components/common/Banner";
-
+import Portfolio from "../../components/portfolio";
 function PortfolioPage() {
   return (
     <div
@@ -16,9 +16,7 @@ function PortfolioPage() {
         Understand and cover your components well, and you'll be preparing 
         a consistent infrastructure that enriches the user's experience.`}
       />
-      <div style={{ height: "30rem" }}>
-        <Link href="/portfolio/maps">map</Link>
-      </div>
+      <Portfolio />
     </div>
   );
 }

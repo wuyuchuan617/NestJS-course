@@ -12,28 +12,28 @@ function Footer() {
           <div className={classes.footer}>
             <div>
               <ul>
-                <li onClick={() => seShowSidemenu(false)}>
+                <li>
                   <Link href="/about">🐰 ABOUT</Link>
                 </li>
               </ul>
             </div>
             <div>
               <ul>
-                <li onClick={() => seShowSidemenu(false)}>
+                <li>
                   <Link href="/component">🥑 COMPONENT</Link>
                 </li>
-                <li onClick={() => seShowSidemenu(false)}>
+                <li>
                   <Link href="/portfolio">🍄 PORTFOLIO</Link>
                 </li>
               </ul>
             </div>
             <div>
               <ul>
-                <li onClick={() => seShowSidemenu(false)}>
+                <li>
                   <Link href="/note">🛸 NOTE</Link>
                 </li>
 
-                <li onClick={() => seShowSidemenu(false)}>
+                <li>
                   <Link href="/collection">👀 COLLECTION</Link>
                 </li>
               </ul>
