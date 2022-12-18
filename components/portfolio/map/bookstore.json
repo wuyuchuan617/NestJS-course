@@ -1,0 +1,522 @@
+[
+  {
+    "WKT": "POINT (121.5098448 25.0576446)",
+    "name": "郭怡美書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.3710071 24.93541179999999)",
+    "name": "一片一頁 piece&page",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5304341 25.04120349999999)",
+    "name": "文房・文化閱讀空間",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5215218 25.0570096)",
+    "name": "好土: home to",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5221777 25.0569713)",
+    "name": "田園城市生活風格書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5220399 25.0491925)",
+    "name": "朋丁 Pon Ding",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5177347 25.0519112)",
+    "name": "荒花書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5212545 25.052716)",
+    "name": "雄獅星空 Link Lion",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4835818 25.0567665)",
+    "name": "逃逸線書室",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5124466 25.0476885)",
+    "name": "川流之島",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.509495 25.05879)",
+    "name": "季風帶書店(大稻埕店)",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.8668663 25.032014)",
+    "name": "翫雙溪書苑",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4399531 25.1717828)",
+    "name": "爬上坡 好書室 UP HILL BOOKSHOP",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5241022 25.0709551)",
+    "name": "王大閎書軒 DH Café",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.519493 25.055805)",
+    "name": "詩生活",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5327718 25.0175333)",
+    "name": "唐山書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5187589 25.0315267)",
+    "name": "永樂座 Eirakuza Books",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5046448 25.1214556)",
+    "name": "有河書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4423064 25.1690298)",
+    "name": "無論如河Gutta Books&Coffee",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.7371344 25.1344094)",
+    "name": "太平青鳥",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.7562483 25.1286204)",
+    "name": "小獸書屋",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.7701111 24.6717611)",
+    "name": "moku旅人書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5222546 25.0041545)",
+    "name": "楫文社│書籍販售│甜點│咖啡茶飲│書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5200937 25.0552559)",
+    "name": "浮光書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5090776 24.9874399)",
+    "name": "燦爛時光：東南亞主題書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.539977 25.0274971)",
+    "name": "水牛書店 台北店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5254477 25.0346536)",
+    "name": "恬野書 JoyWildBooks",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5099649 25.0546286)",
+    "name": "Bookstore1920s",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.533193 25.023319)",
+    "name": "欒樹下書房/咖啡",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5346156 25.0346808)",
+    "name": "夢田影像",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5216671 25.0444475)",
+    "name": "左轉有書",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.529337 25.04431869999999)",
+    "name": "青鳥Bleu&Book",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5206719 25.0215451)",
+    "name": "紀州庵文學森林",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5514819 25.05828109999999)",
+    "name": "reading room",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5296061 25.01852839999999)",
+    "name": "請進門來-書友坊",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5922041 25.0678194)",
+    "name": "文心藝所 Winsing Art Place",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5161359 25.0500376)",
+    "name": "基地書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5213586 25.0525721)",
+    "name": "中山銅鑼灣書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5617644 25.030993)",
+    "name": "PLAYground 南村劇場‧青鳥·有.設計",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5374712 25.0074778)",
+    "name": "諦・VEGANISM 共響空間",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.520184 25.0549429)",
+    "name": "春秋書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.528109 25.0360194)",
+    "name": "純良社書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5180565 25.0502896)",
+    "name": "一間書店 the1bookstore",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5074708 25.0411457)",
+    "name": "飛地nowhere",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5179666 25.0353817)",
+    "name": "風景書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5338819 25.0513341)",
+    "name": "重本書店 Weight Books",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5334332 25.0573927)",
+    "name": "國家書店 松江門市",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.513332 25.042933)",
+    "name": "天瓏書局-電腦書專賣店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5432038 25.0431842)",
+    "name": "雅痞Art Reading Cafe (雅痞書店)",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5408938 25.0429132)",
+    "name": "moom bookshop",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5557041 25.0384613)",
+    "name": "微貳獨冊",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5324713 25.01628689999999)",
+    "name": "薄霧書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5334089 25.01502229999999)",
+    "name": "茉莉二手書店 台大店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5321789 25.0260906)",
+    "name": "茉莉二手書店 (師大店)",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5388136 25.0294413)",
+    "name": "失戀排行榜 Heartbreak Fidelity Records & Books 唱片行×獨立書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5331991 25.0174954)",
+    "name": "聯經書房",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5005808 25.0364883)",
+    "name": "莽葛拾遺二手書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5244756 25.0846263)",
+    "name": "北藝青鳥",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5262181 25.0941852)",
+    "name": "胡思二手書店士林店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4702674 25.0226978)",
+    "name": "方寸書店（營業日期詳見FB)",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5797805 25.0624826)",
+    "name": "華泰文化 (內湖門市) Hwa Tai Neihu Bookshop",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5161359 25.0500376)",
+    "name": "臺灣漫畫基地 Taiwan Comic Base",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5202225 25.0493529)",
+    "name": "Waiting Room",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.7437776 25.1304161)",
+    "name": "見書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.539968 25.0275021)",
+    "name": "我愛你學田市集",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.7609475 25.127883)",
+    "name": "樂心書室",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4299627 24.9980758)",
+    "name": "菓實書屋",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4505867 25.0065714)",
+    "name": "書店 咖啡 早午餐",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4686974 25.0090254)",
+    "name": "創食器 by Efay",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.6753749 25.0131722)",
+    "name": "螢火蟲公益書屋",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.454898 25.0071857)",
+    "name": "Flaneur Access 漫遊者通道書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5164354 24.9991192)",
+    "name": "綠書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.8663709 25.0385002)",
+    "name": "紅氣球又香又甜雙溪店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5000675 25.131137)",
+    "name": "山峸二手書店 Ridgebooks",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.559897 25.0437756)",
+    "name": "不只是圖書館 Not Just Library",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5465402 25.0790373)",
+    "name": "杜鵑窩 CUCKOO's NEST",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5342057 25.051054)",
+    "name": "信鴿法國書店 Librairie Le Pigeonnier",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.531716 25.0186079)",
+    "name": "書屋花甲Ｘ而立書店（台大店）",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4959809 25.0351756)",
+    "name": "時報本鋪書店 /咖啡飲品/手作甜點/藝文場地/不限時/免費插座",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (119.9516813 26.1679237)",
+    "name": "刺鳥咖啡獨立書店（全預約制）",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.495846 25.122771)",
+    "name": "農禪寺【法鼓書店】",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.502994 25.035024)",
+    "name": "登山補給站-Keepon Outdoor Equipment",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.511061 25.0162947)",
+    "name": "小小書房（小小創意有限公司）",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5617173 25.0546596)",
+    "name": "Lucy Martin Book Shop",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5336661 25.0205299)",
+    "name": "女書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5315617 25.0235524)",
+    "name": "元瓅書坊",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.499869 25.0582694)",
+    "name": "途書館獨立書店&愛做作diy烘焙坊",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.544235 25.048949)",
+    "name": "桑格設計書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5293425 25.0221712)",
+    "name": "舊香居",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5094838 25.0588828)",
+    "name": "鄉藝埕",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5156726 25.116355)",
+    "name": "蘭臺藝廊＆青石巷書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5308994 25.016527)",
+    "name": "Mangasick",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5330971 25.0190844)",
+    "name": "雅博客二手書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4951702 25.0250449)",
+    "name": "萬金喵二手書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.4451866 24.9959801)",
+    "name": "浮洲島美感生活 ( 合宜分店 )",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5226054 25.029614)",
+    "name": "童里繪本洋行",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.583493 25.077856)",
+    "name": "書芙蕾書店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.533287 25.015118)",
+    "name": "The Misanthrope Society 厭世會社",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5193575 25.0534605)",
+    "name": "PAR STORE",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5760439 25.0754559)",
+    "name": "Moooon River Cafe & Books",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5946506 25.0840654)",
+    "name": "WIRED CHAYA茶屋 內湖店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5522544 25.0412893)",
+    "name": "淳久堂書店 明曜店",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5925028 25.0798622)",
+    "name": "布夏拉提咖啡",
+    "description": ""
+  },
+  {
+    "WKT": "POINT (121.5156353 25.0292503)",
+    "name": "生活在他方-城南店 (無訂位服務 / 最後點餐時間20:30，最新消息請依臉書置頂文章為準)",
+    "description": ""
+  }
+]
