@@ -15,7 +15,7 @@ function NoteDetailPage() {
         backgroundColor={"#f9f7f6"}
         titleColor={"#C0BDB1"}
         bannerTitle={"Note"}
-        bannerSubtitlr={router.query.noteName?.toUpperCase()}
+        bannerSubtitlr={router.query.noteName?.toUpperCase() || ""}
         description={`Elements are the fundamental building blocks of an interface. 
         Understand and cover your components well, and you'll be preparing 
         a consistent infrastructure that enriches the user's experience.`}
