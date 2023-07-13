@@ -7,7 +7,7 @@ function MeetupDetail(props) {
       <img src={props.image} alt={props.title} />
       <h1>{props.title}</h1>
       <address>{props.address}</address>
-      <div style={{ textAlign: "left" }}>
+      <div style={{ textAlign: "left" , padding:'100px 25vw'}}>
         {descriptionLines.map((line, index) => (
           <p key={index}>{line}</p>
         ))}
