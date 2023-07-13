@@ -14,10 +14,10 @@ function MeetupItem(props) {
     <>
       <li className={classes.item}>
         <Card onClick={showDetailsHandler}>
-          <div className={classes.image}>
+          <div className={classes.image} onClick={showDetailsHandler}>
             <img src={props.image} alt={props.title} />
           </div>
-          <div className={classes.content}>
+          <div className={classes.content} onClick={showDetailsHandler}>
             <h3>{props.title}</h3>
             {/* <p>{props.address}</p> */}
           </div>

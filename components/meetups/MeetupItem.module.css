@@ -18,6 +18,7 @@
 
 .content {
   cursor: pointer;
+  text-align: center;
 }
 .content p {
   margin-bottom: 20px;
