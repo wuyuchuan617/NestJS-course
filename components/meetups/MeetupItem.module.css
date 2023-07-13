@@ -19,6 +19,7 @@
 .content {
   cursor: pointer;
   text-align: center;
+  color: rgb(128, 118, 105);
 }
 .content p {
   margin-bottom: 20px;

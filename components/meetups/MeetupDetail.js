@@ -5,7 +5,11 @@ function MeetupDetail(props) {
   return (
     <section className={classes.detail}>
       <img src={props.image} alt={props.title} />
-      <h1>{props.title}</h1>
+      <h1
+        style={{ letterSpacing: "0.2em", fontSize: "1.1rem", color: "#807669" }}
+      >
+        {props.title}
+      </h1>
       <address>{props.address}</address>
       <div className={classes.description}>
         {descriptionLines.map((line, index) => (
