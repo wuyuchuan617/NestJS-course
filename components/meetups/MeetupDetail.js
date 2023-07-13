@@ -10,6 +10,9 @@ function MeetupDetail(props) {
       >
         {props.title}
       </h1>
+      <p style={{ letterSpacing: "0.1em", fontSize: "12px", color: "#807669" }}>
+        {props.publishTime ? new Date(props.publishTime).toDateString() : ""}
+      </p>
       <address>{props.address}</address>
       <div className={classes.description}>
         {descriptionLines.map((line, index) => (

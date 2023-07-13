@@ -16,6 +16,7 @@ function MeetupDetails(props) {
         title={meetupData.title}
         address={meetupData.address}
         description={meetupData.description}
+        publishTime={meetupData.publishTime}
       />
     </>
   );
@@ -69,6 +70,7 @@ export async function getStaticProps(context) {
         address: selectedMeetup.address,
         image: selectedMeetup.image,
         description: selectedMeetup.description,
+        publishTime: selectedMeetup.publishTime || 0,
       },
     },
     revalidate: 10,
