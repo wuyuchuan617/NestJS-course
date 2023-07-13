@@ -5,3 +5,21 @@
 .detail img {
   width: 100%;
 }
+
+.description {
+  text-align: left;
+  padding: 100px 10vw;
+  color: rgb(128, 118, 105);
+  line-height: 1.8;
+}
+
+@media (max-width: 650px) {
+  .description {
+    padding: 100px 10vw;
+  }
+}
+@media (min-width: 650px) and (max-width: 1024px) {
+  .description {
+    padding: 100px 25vw;
+  }
+}
