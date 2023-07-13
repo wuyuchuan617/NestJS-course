@@ -15,7 +15,7 @@
 
 @media (max-width: 650px) {
   .description {
-    padding: 100px 10vw;
+    padding: 20px 10vw;
   }
 }
 @media (min-width: 650px) and (max-width: 1024px) {
