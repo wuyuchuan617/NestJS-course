@@ -20,7 +20,7 @@ function BookList() {
                   <img
                     className={classes.image}
                     alt={book.title}
-                    layout="fill"
+                    // layout="fill"
                     src={hoverItem === index ? book.image : book.engCover}
                   ></img>
                 </div>{" "}

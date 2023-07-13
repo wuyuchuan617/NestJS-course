@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import myPic from "../../assets/images/25D268C4-CC3D-4EEE-B3D9-85B357198EDA.jpg";
+import myPicImg from "../../assets/images/about.png";
 import classes from "./About.module.css";
 
 function About() {
@@ -8,10 +8,11 @@ function About() {
     <div className={classes.container}>
       {/* <div>About</div> */}
       <div className={classes.photo}>
-        <Image alt={"yu"} layout="intrinsic" src={myPic} />
+        <Image alt={"yu"} layout="intrinsic" src={myPicImg} />
+        {/* <img src={myPicImg} alt="yu" /> */}
       </div>
       <div className={classes.context}>
-        <div>YU CHUAN</div>
+        <div>YU CHUANd</div>
         <div>FRONTEND ENGINEER</div>
         <p>REACT | TYPESCRIPT | NEXTJS</p>
         <p>{`I'm passion for the art of coding 👩🏻‍💻

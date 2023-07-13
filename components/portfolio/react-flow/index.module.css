@@ -1,0 +1,81 @@
+#download-image .react-flow {
+  background: #1a365d;
+}
+
+#download-image .react-flow__node {
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: white;
+}
+
+#download-image .react-flow__node-custom {
+  font-size: 12px;
+  background: #eee;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+#download-image .react-flow__node-custom .react-flow__handle-right {
+  transform: none;
+}
+
+#download-image.wrapper {
+  position: relative;
+  height: 100%;
+}
+
+#download-image .download-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  border: 1px solid #e9e6e3;
+  color: white;
+  background: #cfc6be;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#download-image .download-btn:hover {
+  opacity: 0.9;
+}
+
+.react-flow__attribution {
+  display: none;
+}
+
+.save__controls {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 10;
+  font-size: 12px;
+}
+
+.save__controls button {
+  margin-left: 5px;
+  border: 1px solid #e9e6e3;
+  color: white;
+  background: #cfc6be;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.react-flow__node-selectorNode {
+  font-size: 12px;
+  background: #eee;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+}
