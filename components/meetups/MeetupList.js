@@ -6,7 +6,7 @@ function MeetupList(props) {
     <>
       <div className={classes.title}>ARTICLE</div>
       <ul className={classes.list}>
-        {props.meetups.map((meetup) => (
+        {props.meetups.reverse().map((meetup) => (
           <MeetupItem
             key={meetup.id}
             id={meetup.id}
