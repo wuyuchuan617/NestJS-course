@@ -7,9 +7,11 @@ function MeetupDetail(props) {
       <img src={props.image} alt={props.title} />
       <h1>{props.title}</h1>
       <address>{props.address}</address>
-      {descriptionLines.map((line, index) => (
-        <p key={index}>{line}</p>
-      ))}
+      <div style={{ textAlign: "left" }}>
+        {descriptionLines.map((line, index) => (
+          <p key={index}>{line}</p>
+        ))}
+      </div>
     </section>
   );
 }
