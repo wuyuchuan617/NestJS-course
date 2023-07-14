@@ -31,7 +31,7 @@ function HomePage(props) {
   return (
     <>
       <Head>
-        <title>react meetup</title>
+        <title>Space Yu</title>
         <meta name="descrtopn" content="browse a huge meetup" />
       </Head>
       <MeetupList meetups={meetups} />
