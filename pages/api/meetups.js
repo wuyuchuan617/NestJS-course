@@ -1,22 +1,23 @@
-export async function getStaticProps() {
-  const client = await MongoClient.connect(
-    "mongodb+srv://yuchuanwu:Shin0915@cluster0.ivtm9.mongodb.net/meetups?retryWrites=true&w=majority"
-  );
+import { MongoClient } from "mongodb";
 
-  const db = client.db();
+export default async function handler(req, res) {
+  if (req.method === "GET") {
+    try {
+      const client = await MongoClient.connect(
+        "mongodb+srv://yuchuanwu:Shin0915@cluster0.ivtm9.mongodb.net/meetups?retryWrites=true&w=majority"
+      );
 
-  const meetupsCollection = db.collection("meetups");
-  const meetups = ((await meetupsCollection.find().toArray()).reverse());
+      const db = client.db();
+      const meetupsCollection = db.collection("meetups");
 
-  return {
-    props: {
-      meetups: meetups.map((item) => ({
-        title: item.title,
-        address: item.address,
-        image: item.image,
-        id: item._id.toString(),
-      })),
-    },
-    revalidate: 1,
-  };
+      const meetups = await meetupsCollection.find().toArray();
+
+      client.close();
+      res.status(200).json(meetups.reverse());
+    } catch (error) {
+      res.status(500).json({ message: "Database connection failed!" });
+    }
+  } else {
+    res.status(405).json({ message: "Method Not Allowed" });
+  }
 }
