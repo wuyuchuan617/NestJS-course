@@ -9,7 +9,9 @@ const cors = Cors({
   origin: "*", // You can restrict this to specific domains in production
 });
 
-const client = new MongoClient("your-mongo-uri");
+const client = new MongoClient(
+  "mongodb+srv://yuchuanwu:Shin0915@cluster0.ivtm9.mongodb.net/meetups?retryWrites=true&w=majority"
+);
 
 // Helper function to run middleware
 function runMiddleware(req, res, fn) {
