@@ -1,8 +1,31 @@
 import { MongoClient } from "mongodb";
+import Cors from "cors";
 
 // POST /api/new-meetup
 
+// Initialize CORS
+const cors = Cors({
+  methods: ["GET", "POST", "OPTIONS"],
+  origin: "*", // You can restrict this to specific domains in production
+});
+
+const client = new MongoClient("your-mongo-uri");
+
+// Helper function to run middleware
+function runMiddleware(req, res, fn) {
+  return new Promise((resolve, reject) => {
+    fn(req, res, (result) => {
+      if (result instanceof Error) {
+        return reject(result);
+      }
+      return resolve(result);
+    });
+  });
+}
+
 export default async function handler(req, res) {
+  await runMiddleware(req, res, cors); // Run CORS middleware
+
   if (req.method === "POST") {
     const data = JSON.parse(req.body);
 
